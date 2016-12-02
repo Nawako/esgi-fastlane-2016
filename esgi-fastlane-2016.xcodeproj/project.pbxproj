@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C22B3261DF1B5A200CE0E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C22B3251DF1B5A200CE0E91 /* AppDelegate.swift */; };
+		0C22B3281DF1B5A200CE0E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C22B3271DF1B5A200CE0E91 /* ViewController.swift */; };
+		0C22B32B1DF1B5A200CE0E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C22B3291DF1B5A200CE0E91 /* Main.storyboard */; };
+		0C22B32D1DF1B5A200CE0E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C22B32C1DF1B5A200CE0E91 /* Assets.xcassets */; };
+		0C22B3301DF1B5A200CE0E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C22B32E1DF1B5A200CE0E91 /* LaunchScreen.storyboard */; };
+		0C22B33B1DF1B5A200CE0E91 /* esgi_fastlane_2016Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C22B33A1DF1B5A200CE0E91 /* esgi_fastlane_2016Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C22B3371DF1B5A200CE0E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C22B31A1DF1B5A100CE0E91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C22B3211DF1B5A100CE0E91;
+			remoteInfo = "esgi-fastlane-2016";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C22B3221DF1B5A200CE0E91 /* esgi-fastlane-2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "esgi-fastlane-2016.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C22B3251DF1B5A200CE0E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C22B3271DF1B5A200CE0E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C22B32A1DF1B5A200CE0E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C22B32C1DF1B5A200CE0E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C22B32F1DF1B5A200CE0E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C22B3311DF1B5A200CE0E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C22B3361DF1B5A200CE0E91 /* esgi-fastlane-2016Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "esgi-fastlane-2016Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C22B33A1DF1B5A200CE0E91 /* esgi_fastlane_2016Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esgi_fastlane_2016Tests.swift; sourceTree = "<group>"; };
+		0C22B33C1DF1B5A200CE0E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C22B31F1DF1B5A100CE0E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C22B3331DF1B5A200CE0E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C22B3191DF1B5A100CE0E91 = {
+			isa = PBXGroup;
+			children = (
+				0C22B3241DF1B5A200CE0E91 /* esgi-fastlane-2016 */,
+				0C22B3391DF1B5A200CE0E91 /* esgi-fastlane-2016Tests */,
+				0C22B3231DF1B5A200CE0E91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C22B3231DF1B5A200CE0E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C22B3221DF1B5A200CE0E91 /* esgi-fastlane-2016.app */,
+				0C22B3361DF1B5A200CE0E91 /* esgi-fastlane-2016Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C22B3241DF1B5A200CE0E91 /* esgi-fastlane-2016 */ = {
+			isa = PBXGroup;
+			children = (
+				0C22B3251DF1B5A200CE0E91 /* AppDelegate.swift */,
+				0C22B3271DF1B5A200CE0E91 /* ViewController.swift */,
+				0C22B3291DF1B5A200CE0E91 /* Main.storyboard */,
+				0C22B32C1DF1B5A200CE0E91 /* Assets.xcassets */,
+				0C22B32E1DF1B5A200CE0E91 /* LaunchScreen.storyboard */,
+				0C22B3311DF1B5A200CE0E91 /* Info.plist */,
+			);
+			path = "esgi-fastlane-2016";
+			sourceTree = "<group>";
+		};
+		0C22B3391DF1B5A200CE0E91 /* esgi-fastlane-2016Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0C22B33A1DF1B5A200CE0E91 /* esgi_fastlane_2016Tests.swift */,
+				0C22B33C1DF1B5A200CE0E91 /* Info.plist */,
+			);
+			path = "esgi-fastlane-2016Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C22B3211DF1B5A100CE0E91 /* esgi-fastlane-2016 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C22B33F1DF1B5A200CE0E91 /* Build configuration list for PBXNativeTarget "esgi-fastlane-2016" */;
+			buildPhases = (
+				0C22B31E1DF1B5A100CE0E91 /* Sources */,
+				0C22B31F1DF1B5A100CE0E91 /* Frameworks */,
+				0C22B3201DF1B5A100CE0E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "esgi-fastlane-2016";
+			productName = "esgi-fastlane-2016";
+			productReference = 0C22B3221DF1B5A200CE0E91 /* esgi-fastlane-2016.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C22B3351DF1B5A200CE0E91 /* esgi-fastlane-2016Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C22B3421DF1B5A200CE0E91 /* Build configuration list for PBXNativeTarget "esgi-fastlane-2016Tests" */;
+			buildPhases = (
+				0C22B3321DF1B5A200CE0E91 /* Sources */,
+				0C22B3331DF1B5A200CE0E91 /* Frameworks */,
+				0C22B3341DF1B5A200CE0E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C22B3381DF1B5A200CE0E91 /* PBXTargetDependency */,
+			);
+			name = "esgi-fastlane-2016Tests";
+			productName = "esgi-fastlane-2016Tests";
+			productReference = 0C22B3361DF1B5A200CE0E91 /* esgi-fastlane-2016Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C22B31A1DF1B5A100CE0E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Fabrice;
+				TargetAttributes = {
+					0C22B3211DF1B5A100CE0E91 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					0C22B3351DF1B5A200CE0E91 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0C22B3211DF1B5A100CE0E91;
+					};
+				};
+			};
+			buildConfigurationList = 0C22B31D1DF1B5A100CE0E91 /* Build configuration list for PBXProject "esgi-fastlane-2016" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C22B3191DF1B5A100CE0E91;
+			productRefGroup = 0C22B3231DF1B5A200CE0E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C22B3211DF1B5A100CE0E91 /* esgi-fastlane-2016 */,
+				0C22B3351DF1B5A200CE0E91 /* esgi-fastlane-2016Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C22B3201DF1B5A100CE0E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C22B3301DF1B5A200CE0E91 /* LaunchScreen.storyboard in Resources */,
+				0C22B32D1DF1B5A200CE0E91 /* Assets.xcassets in Resources */,
+				0C22B32B1DF1B5A200CE0E91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C22B3341DF1B5A200CE0E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C22B31E1DF1B5A100CE0E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C22B3281DF1B5A200CE0E91 /* ViewController.swift in Sources */,
+				0C22B3261DF1B5A200CE0E91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C22B3321DF1B5A200CE0E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C22B33B1DF1B5A200CE0E91 /* esgi_fastlane_2016Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C22B3381DF1B5A200CE0E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C22B3211DF1B5A100CE0E91 /* esgi-fastlane-2016 */;
+			targetProxy = 0C22B3371DF1B5A200CE0E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C22B3291DF1B5A200CE0E91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C22B32A1DF1B5A200CE0E91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C22B32E1DF1B5A200CE0E91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C22B32F1DF1B5A200CE0E91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C22B33D1DF1B5A200CE0E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C22B33E1DF1B5A200CE0E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C22B3401DF1B5A200CE0E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "esgi-fastlane-2016/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.esgi-fastlane-2016";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0C22B3411DF1B5A200CE0E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "esgi-fastlane-2016/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.esgi-fastlane-2016";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0C22B3431DF1B5A200CE0E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "esgi-fastlane-2016Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.esgi-fastlane-2016Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esgi-fastlane-2016.app/esgi-fastlane-2016";
+			};
+			name = Debug;
+		};
+		0C22B3441DF1B5A200CE0E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "esgi-fastlane-2016Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kilomobi.esgi-fastlane-2016Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esgi-fastlane-2016.app/esgi-fastlane-2016";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C22B31D1DF1B5A100CE0E91 /* Build configuration list for PBXProject "esgi-fastlane-2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C22B33D1DF1B5A200CE0E91 /* Debug */,
+				0C22B33E1DF1B5A200CE0E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C22B33F1DF1B5A200CE0E91 /* Build configuration list for PBXNativeTarget "esgi-fastlane-2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C22B3401DF1B5A200CE0E91 /* Debug */,
+				0C22B3411DF1B5A200CE0E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C22B3421DF1B5A200CE0E91 /* Build configuration list for PBXNativeTarget "esgi-fastlane-2016Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C22B3431DF1B5A200CE0E91 /* Debug */,
+				0C22B3441DF1B5A200CE0E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C22B31A1DF1B5A100CE0E91 /* Project object */;
+}
