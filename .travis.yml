@@ -4,9 +4,9 @@ branches:
  only:
   - develop
   - master
- notification:
+notification:
   email: false
- before_install:
+before_install:
  - gem install bundler
  - bundle install && brew bundle
 script:
